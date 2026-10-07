@@ -21,3 +21,9 @@ variable "instance_name" {
   type        = string
   default     = "demo-instance"
 }
+
+variable "environment" {
+  description = "Environment tag (e.g. dev, test, prod)."
+  type        = string
+  default     = "test"
+}
